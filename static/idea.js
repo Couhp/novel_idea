@@ -3,7 +3,7 @@ $("document").ready(function() {
     $.ajax({
         type: "POST",
         method: "POST",
-        url: "http://localhost:8000/",
+        url: "https://novelidea.herokuapp.com/",
         data: "",
         success: function(data) {
             $(".show").html(data)
@@ -14,7 +14,7 @@ $("document").ready(function() {
         $.ajax({
             type: "POST",
             method: "POST",
-            url: "http://localhost:8000/get",
+            url: "https://novelidea.herokuapp.com/get",
             data: "",
             success: function(data) {
                 $(".show").html(data)
