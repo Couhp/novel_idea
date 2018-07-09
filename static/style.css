@@ -1,0 +1,28 @@
+
+
+
+body 
+{
+    margin: 50px 50px 50px 50px;
+}
+
+.main 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#get 
+{
+    margin : 10px 10px 10px 10px;
+    font-size: 20px; 
+}
+
+.show 
+{
+    margin : 20px 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: firebrick;
+    font-size: 30px;
+    
+}
